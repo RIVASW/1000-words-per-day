@@ -1,0 +1,2 @@
+class TranslationsListsController < ApplicationController
+end

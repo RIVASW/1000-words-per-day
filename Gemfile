@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.16'
 # Use mysql as the database for Active Record
 gem 'mysql2', '~> 0.3.18'
+# Simple, efficient background processing for Ruby.
+gem 'sidekiq'
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.

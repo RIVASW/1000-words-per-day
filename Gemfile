@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'dotenv-rails', require: 'dotenv/rails-now', groups: [:development, :test]
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.16'
 # Use mysql as the database for Active Record
@@ -26,6 +24,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
+
+gem 'dotenv-rails', groups: [:development, :test]
 
 gem 'haml'
 

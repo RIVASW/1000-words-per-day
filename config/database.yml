@@ -8,8 +8,8 @@ default: &default
   adapter: mysql2
   pool: 5
   timeout: 5000
-  username: thw
-  password: thousand1000
+  username: <%= ENV['DB_USERNAME'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
 
 development:
   <<: *default

@@ -1,0 +1,16 @@
+.navbar.navbar-inverse.navbar-fixed-top
+  .navbar-inner
+    .container
+      %button.btn.btn-navbar{ "data-target" => ".nav-collapse", "data-toggle" => "collapse", :type => "button" }
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.brand{ :href => "#" } Thousand words
+      .nav-collapse.collapse
+        %ul.nav
+          %li.active
+            = link_to 'Words Lists', '#'
+          %li
+            = link_to 'Vocabulary', '#'
+          %li
+            = link_to 'Training', '#'
